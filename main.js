@@ -8,32 +8,25 @@
 
 
 
-const numbers = [2, 4, 9, 10, 45, 67, 8, 90];
+// const numbers = [2, 4, 9, 10, 45, 67, 8, 90];
+// console.log(numbers) ("Boshlanishdagi Array") ;
+// for (let index = 0; index < numbers.length; index++) {
 
-for (let index = 0; index < numbers.length; index++) {
+//     if (numbers[index] % 2 == 0) {
 
-    if (numbers[index] % 2 == 0) {
+//         console.log(numbers[index]) `Juft sonlarga ajratilgan array`;
 
-        console.log(numbers[index]);
-
-    }
-}
-
-
-// const names = ["Amirxon", "Akmal", "MirsaidBot", "Lola", "Mirilyos", "ali"]
-
-// const koplar = []
-// const kamlar = []
-
-// for (let index = 0; index < names.length; index++) {
-//     if (names[index].length > 5) {
-//         koplar.push(names[index])
-//     }
-
-//     else {
-//         kamlar.push(names[index])
 //     }
 // }
 
-// console.log(koplar);
-// console.log(kamlar);
+
+
+
+
+// Define the initial array
+let initialArray = [2, 4, 9, 10, 45, 67, 8, 90];
+console.log(initialArray, 'boshlanishdagi array');
+
+// Filter the array to only include even numbers
+let evenNumbersArray = initialArray.filter(num => num % 2 === 0);
+console.log(evenNumbersArray, 'juft sonlarga ajratilgan array');
